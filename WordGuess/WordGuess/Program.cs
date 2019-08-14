@@ -31,7 +31,7 @@ namespace WordGuess
         /// <returns>A List that contains the phrases</returns>
         private static List<string> GetPhrases()
         {
-            string filename = @"C:\Users\jason\Documents\AppAcademy\Week2\WordGuess\WordGuess\Phrases.txt";
+            string filename = @"Phrases.txt";
             List<string> phrases = new List<string>();
             if (File.Exists(filename))
             {
